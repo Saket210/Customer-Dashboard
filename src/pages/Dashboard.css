@@ -1,0 +1,19 @@
+.dashboard-div{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    height: 100vh;
+    overflow-y: auto;
+}
+.details-div{
+    flex: 1;
+    background: #eee;
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+@media (max-width:800px){
+    .dashboard-div{
+        flex-direction: column;
+    }
+}

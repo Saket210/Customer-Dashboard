@@ -1,0 +1,47 @@
+.profile-container {
+  margin: 0 auto;
+  width: min(95%, 800px);
+  overflow-y: auto;
+}
+.profile-details-container {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-details-container h2 {
+  color: #3c4036;
+}
+
+.profile-details-container h5 {
+  color: #535948;
+  font-size: 17px;
+}
+
+.profile-details-container p {
+  color: #535948;
+}
+
+.images-div {
+  margin: 50px auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(auto-fit, 200px);
+  gap: 40px 100px;
+  justify-content: center;
+}
+.image {
+  border-radius: 8px;
+}
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0.01;
+    transition: opacity 0.5s ease-in-out;
+}
